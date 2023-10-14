@@ -1,0 +1,36 @@
+/*--------------------------------------------------
+    ## All responsive style
+---------------------------------------------------*/
+@media all and (min-width: 1600px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl {
+      max-width: 1200px;
+  }
+  .main-header .top-header .topbar-left li {
+    padding: 0 36px;
+  }
+}
+
+@media only screen and (max-width: 365px) {
+    .subscribe-btn{
+        color:white;
+        border:1px solid white;
+        font-weight:bold;
+        background-color:orange;
+        border-radius:20px;
+        font-size:16px;
+    }
+}
+
+@media only screen and (max-width:500px){
+    .attention-text{
+        font-size:15px;
+    }
+    .subline-text{
+          line-height: normal;
+    }
+}
+@media only screen and (max-width: 990px) {
+    
+    
+
+}
